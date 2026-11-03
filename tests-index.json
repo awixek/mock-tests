@@ -32,6 +32,12 @@
      "title": "test-5",
      "questions": 120,
      "duration": 120
+    },
+    {
+     "name": "test-6",
+     "title": "test-6",
+     "questions": 120,
+     "duration": 120
     }
    ]
   }
