@@ -4,12 +4,6 @@
    "name": "TGT",
    "tests": [
     {
-     "name": "hindi-test5",
-     "title": "test-5",
-     "questions": 120,
-     "duration": 120
-    },
-    {
      "name": "UP_TGT_Hindi_GS_120_Shuffled-1",
      "title": "Test-3",
      "questions": 120,
