@@ -4,32 +4,32 @@
    "name": "TGT",
    "tests": [
     {
-     "name": "hindi-test1-fixed",
+     "name": "test-1",
      "title": "test-1",
      "questions": 120,
      "duration": 120
     },
     {
-     "name": "hindi-test2-fixed",
+     "name": "test-2",
      "title": "test-2",
      "questions": 120,
      "duration": 120
     },
     {
-     "name": "hindi-test4-shuffled-fixed",
+     "name": "test-3",
+     "title": "test-3",
+     "questions": 120,
+     "duration": 120
+    },
+    {
+     "name": "test-4",
      "title": "test-4",
      "questions": 120,
      "duration": 120
     },
     {
-     "name": "hindi-test5-fixed",
+     "name": "test-5",
      "title": "test-5",
-     "questions": 120,
-     "duration": 120
-    },
-    {
-     "name": "UP_TGT_Hindi_GS_120_Shuffled-1",
-     "title": "Test-3",
      "questions": 120,
      "duration": 120
     }
