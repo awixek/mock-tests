@@ -19,6 +19,8 @@ button:disabled{opacity:.35}
 .card,.row{background:var(--pn);border:1px solid var(--ln);border-left:4px solid var(--ac);border-radius:var(--r);padding:16px}
 .card{display:block}.card h3{margin:0}
 .row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:12px}
+.row.done{border-left-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--pn))}
+.badge{flex:none;font-size:13px;color:#fff;background:var(--ok);border-radius:20px;padding:0 12px}
 .row a:first-child{flex:1;display:block}.row span{display:block;font-size:15px}
 .info{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0}
 .info li{background:var(--pn);border:1px solid var(--ln);border-radius:20px;padding:2px 14px;font-size:15px}
