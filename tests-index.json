@@ -16,6 +16,12 @@
      "duration": 120
     },
     {
+     "name": "hindi-test4",
+     "title": "test-4",
+     "questions": 120,
+     "duration": 120
+    },
+    {
      "name": "UP_TGT_Hindi_GS_120_Shuffled-1",
      "title": "Test-3",
      "questions": 120,
