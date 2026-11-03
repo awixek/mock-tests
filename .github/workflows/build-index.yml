@@ -1,0 +1,18 @@
+name: Build tests index
+on:
+  push:
+    paths: ['tests/**','scripts/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node scripts/build-index.js
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add tests-index.json
+          git diff --cached --quiet || (git commit -m "Update tests index" && git push)

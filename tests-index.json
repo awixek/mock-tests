@@ -1,0 +1,15 @@
+{
+ "sections": [
+  {
+   "name": "TGT",
+   "tests": [
+    {
+     "name": "test1",
+     "title": "TGT Sample Test 1",
+     "questions": 5,
+     "duration": 5
+    }
+   ]
+  }
+ ]
+}
